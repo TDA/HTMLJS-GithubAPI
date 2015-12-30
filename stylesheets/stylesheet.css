@@ -879,3 +879,15 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+.bar-chart-svg {
+  transform: translate(80px, 0px);
+}
+.bar-chart-svg rect {
+  fill: rgba(10, 44, 216, 0.8)
+}
+.bar-chart-svg text {
+  fill: black;
+  font: 12px sans-serif;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+}
